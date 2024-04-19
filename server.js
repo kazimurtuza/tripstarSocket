@@ -105,10 +105,6 @@ redisClient.on("message", function(channel, data) {
 	
 });
 
-
-
-
-
 io.sockets.on('connection', function(socket) {
 
 	socket.on('joinCommonRoom', function(newroom) {
